@@ -14,8 +14,6 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.targetspring-context>17</maven.compiler.targetspring-context>
 		<aws.java.sdk.version>2.16.1</aws.java.sdk.version>
 	</properties>
 	<dependencies>
@@ -43,7 +41,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>5.3.20</version>
+			<version>5.3.23</version>
 		</dependency>
 	</dependencies>
 
@@ -52,6 +50,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>

@@ -25,6 +25,7 @@ import static org.mockito.Mockito.anyString;
 //@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 //@ExtendWith(SpringExtension.class)
 //@ContextConfiguration(classes = { SpringTestConfiguration.class })
+/*
 class DemoApplicationTests {
 
 	@Mock
@@ -57,4 +58,4 @@ class DemoApplicationTests {
 
 	}
 
-}
+}*/
